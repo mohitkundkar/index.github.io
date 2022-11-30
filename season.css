@@ -1,0 +1,40 @@
+.carousel-inner img{
+    height: 92vh;
+}
+body{
+    background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.service-main{
+    /* border: 1px solid blue; */
+    height: 80vh;
+}
+.card img{
+    height: 35rem;
+    width: 18.6vw;
+}
+.rowbody{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.card{
+    box-shadow: 10px 10px 15px gray;
+    transition: all ease .5s;
+}
+.card:hover{
+    rotate: 10deg;
+    cursor: pointer;
+}
+.navbar{
+    position:fixed;
+    z-index: 1000;
+    width: 100vw;
+}
+.container{
+    height: 100%;
+}
+.about{
+    /* border: 1px solid red; */
+}
